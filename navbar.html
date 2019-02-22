@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navbar responsive</title>
+<!-- Latest compiled and minified CSS
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  jQuery librarys
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  Latest compiled JavaScript
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Link to custom CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+<div class="topNav" id="topNav">
+  <img src="logo.png" class="logo" style="height: 32px;width: 40px">
+  <div class="h">
+  <a href="#" class="active">Contact</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Home</a></div>
+  <a class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("topNav");
+    if (x.className === "topNav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topNav";
+    }
+}
+</script>
+</body>
+</html>

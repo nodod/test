@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar responsive</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<!-- Link to custom CSS -->
+		<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2d5986">
+	<div class="container">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="#">Navbar</a>
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+			<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+<div class="container shadow-sm p-3 mb-5 bg-white rounded" style="height: 500px">
+	<div class="row">
+		<div class="col-5 " >
+    <textarea class="form-control " style="height: 450px" placeholder="Enter message to be encoded" autofocus="true"></textarea>
+  </div>
+  <div class="col-2 ">
+    <input type="submit" name="submit" class="btn btn-success d-flex ml-auto mr-auto" value="Go!">
+  </div>	
+  	<div class="col-5 ml-auto">
+    <textarea class="form-control" style="height: 450px" placeholder="Decoded message will be displayed here"></textarea>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
